@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Active Directory Account Lockouts,Access and Logs Monitoring (Azure)</h1>
+<h1>Active Directory Group Policy Objects : Account Lockouts,Access and Logs Monitoring (Azure)</h1>
 This guide provides a hands-on approach to handling account lockouts, enabling/disabling accounts, and monitoring logs within Active Directory.
 
 ---
