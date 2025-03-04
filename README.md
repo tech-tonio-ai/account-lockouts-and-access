@@ -8,17 +8,22 @@
 </p>
 
 - Log in to client-1 as admin(mydomain.com\jane_admin) and force the Group Policy update:
-    - in CMD :
-      <p align="center">
+    - in CMD type "gpupdate /force :
+<p align="center">
   <img src="https://i.imgur.com/tgHDXJ5.png" alt="gpupdate /force" width="45%"/>  
 </p>
     - log out
 
 - Attempt to log in with the same account (cub.dem) **6 times** using an incorrect password in <b>client-1</b>.
+<p align="center">
+  <img src="https://i.imgur.com/TnzmYBe.png" alt="gpupdate /force" width="45%"/> 
+  
+</p>
 
 - Observe that the account has been locked out in **Active Directory**.
-
-
+<p align="center">
+<img src="https://i.imgur.com/Ry3o570.png" alt="gpupdate /force" width="45%"/>
+</p>
 ## Step 2: Unlock the Account
 - Unlock the locked-out account.
   
