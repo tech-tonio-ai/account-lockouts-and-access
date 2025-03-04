@@ -7,7 +7,14 @@
   <img src="https://i.imgur.com/0YMrW06.png" alt="Image 1" width="45%"/>  
 </p>
 
-- Attempt to log in with the same account **6 times** using an incorrect password in <b>client-1</b>.
+- Log in to client-1 as admin(mydomain.com\jane_admin) and force the Group Policy update:
+    - in CMD :
+      <p align="center">
+  <img src="https://i.imgur.com/tgHDXJ5.png" alt="gpupdate /force" width="45%"/>  
+</p>
+    - log out
+
+- Attempt to log in with the same account (cub.dem) **6 times** using an incorrect password in <b>client-1</b>.
 
 - Observe that the account has been locked out in **Active Directory**.
 
