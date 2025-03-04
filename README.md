@@ -1,4 +1,6 @@
 # Dealing with Account Lockouts
+This guide provides a hands-on approach to handling account lockouts, enabling/disabling accounts, and monitoring logs within **Active Directory**.
+--
 
 
 ## Step 1: Configure Group Policy for Account Lockout
@@ -48,9 +50,15 @@
 # Observing Logs
 
 1. **Check the logs on the Domain Controller** to monitor account lockout events.
-2. **Check the logs on the Client Machine** to review authentication attempts and errors.
+<p align="center">
+<img src="https://i.imgur.com/nmdR9JR.png" alt="gpupdate /force" width="45%"/>
+</p>
+3. **Check the logs on the Client Machine** to review authentication attempts and errors.
+<p align="center">
+<img src="https://i.imgur.com/z5RukJw.png" alt="gpupdate /force" width="45%"/>
+</p>
 
 ---
 
-This guide provides a hands-on approach to handling account lockouts, enabling/disabling accounts, and monitoring logs within **Active Directory**.
+
 
