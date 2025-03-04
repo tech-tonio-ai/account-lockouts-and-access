@@ -3,8 +3,9 @@
 </p>
 
 <h1>Active Directory Account Lockouts,Access and Logs Monitoring (Azure)</h1>
-This guide provides a hands-on approach to handling account lockouts, enabling/disabling accounts, and monitoring logs within **Active Directory**.
---
+This guide provides a hands-on approach to handling account lockouts, enabling/disabling accounts, and monitoring logs within Active Directory.
+
+---
 
 
 ## Step 1: Configure Group Policy for Account Lockout
