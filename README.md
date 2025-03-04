@@ -1,19 +1,23 @@
-# Handling Account Lockouts and User Access
 # Dealing with Account Lockouts
 
-## Step 1: Log into DC-1
-1. Pick a random user account you created previously.
-2. Attempt to log in with it **10 times** using an incorrect password.
 
-## Step 2: Configure Group Policy for Account Lockout
-1. Set the **Account Lockout Threshold** to **5 failed attempts** in Group Policy.
-2. Attempt to log in with the same account **6 times** using an incorrect password.
-3. Observe that the account has been locked out in **Active Directory**.
+## Step 1: Configure Group Policy for Account Lockout
+- Set the **Account Lockout Threshold** to **5 failed attempts** in Group Policy.
+  <p align="center">
+  <img src="https://i.imgur.com/0YMrW06.png" alt="Image 1" width="45%"/>  
+</p>
 
-## Step 3: Unlock the Account
-1. Unlock the locked-out account.
-2. Reset the password.
-3. Attempt to log in again to verify the fix.
+- Attempt to log in with the same account **6 times** using an incorrect password in <b>client-1</b>.
+
+- Observe that the account has been locked out in **Active Directory**.
+
+
+## Step 2: Unlock the Account
+- Unlock the locked-out account.
+  
+- Reset the password.
+  
+- Attempt to log in again to verify the fix.
 
 ---
 
